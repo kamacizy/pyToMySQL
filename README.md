@@ -1,2 +1,2 @@
 # pyToMySQL
-converting API calls to MySQL tables
+Making API calls or connecting and creating tables in MySQL
