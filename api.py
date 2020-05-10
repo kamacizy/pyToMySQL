@@ -29,7 +29,7 @@ class API_Caller:
 
     
     def api_updater(self):
-        res = requests.pa(self.url,self.params)
+        res = requests.patch(self.url,self.params)
         if res.status_code >= 200 and res.status_code < 300:
             return res.json()
         else:
